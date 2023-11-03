@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Montserrat:wght@300&display=swap');
+
+
+body{
+text-align: center;
+font-family:'Montserrat', sans-serif ;
+color: white;
+font-size: 20px;
+}
+
+html{
+background-color: #112A46;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+min-height: 100%;
+}
+
+.top{
+    color: honeydew;
+}
+
+label{
+    margin-top: 15px;
+    color: honeydew;
+    text-align: center;
+    display: block;
+}
+
+input, select, textarea{
+    border: none;
+    height: 25px;
+    width: 75%;
+    border-radius: 5px;
+    background-color: #07203D;
+    color: white;
+    font-size: 20px;
+    padding-left: 5px;
+    font-family:'Montserrat', sans-serif ;
+}
+
+fieldset{
+    border: none;
+    margin-bottom: 5px;
+}
+
+form{
+    margin:0 auto;
+    max-width: 650px;
+    min-width: 300px;
+    width: 60vw;
+}
+
+::placeholder{
+    color: white;
+    padding-left: 5px;
+    font-family:'Montserrat', sans-serif ;
+}
+
+.inline{
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+textarea{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.at{
+    border-bottom: 2px solid #07203D;
+}
+
+input[type="submit"]{
+    display: block;
+    width: 60%; 
+    margin: 1em auto;
+    font-size: 1.1rem;
+    border-color: white;
+    min-width: 300px;
+}
+
+a{
+    color: #07203D;
+}
+
+a:visited{
+    color: #07203D;
+}
+
+
+
+
